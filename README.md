@@ -22,7 +22,6 @@
         <th>Details</th>
     </tr>
     <tr>
-        <td></td>
         <td>1</td>
         <td>
             Zip File Backup Program
@@ -34,4 +33,15 @@
             4. Press Enter Any Key for (exist)!!!
         </td>
     </tr>
+    <tr>
+        <td>2</td>
+        <td>Process Bar</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>Postgres SQL daily recorded</td>
+        <td>For my work daily record voucher.</td>
+    </tr>
+
 </table>
