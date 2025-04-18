@@ -2,8 +2,6 @@
 echo Installing your essential coding and gaming software...
 echo Please wait. This may take several minutes depending on your internet speed.
 
-winget install --id Oracle.JDK.24 -e --accept-package-agreements --accept-source-agreements
-
 
 :: Game platforms and tools
 winget install --id Valve.Steam -e --accept-package-agreements --accept-source-agreements
@@ -14,8 +12,9 @@ winget install --id MSI.Afterburner -e --accept-package-agreements --accept-sour
 :: Coding tools
 winget install --id Microsoft.VisualStudioCode -e --accept-package-agreements --accept-source-agreements
 winget install --id Microsoft.VisualStudio.2022.Community -e --accept-package-agreements --accept-source-agreements
+winget install --id Oracle.JDK.24 -e --accept-package-agreements --accept-source-agreements
 winget install --id JetBrains.IntelliJIDEA.Community -e --accept-package-agreements --accept-source-agreements
-winget install --id Python.Python.3 -e --accept-package-agreements --accept-source-agreements
+winget install --id Python.Python.3.11 -e --accept-package-agreements --accept-source-agreements
 winget install --id OpenJS.NodeJS -e --accept-package-agreements --accept-source-agreements
 winget install --id EclipseAdoptium.Temurin.17.JDK -e --accept-package-agreements --accept-source-agreements
 winget install --id Git.Git -e --accept-package-agreements --accept-source-agreements
@@ -56,10 +55,10 @@ winget install --id Piriform.CCleaner -e --accept-package-agreements --accept-so
 winget install --id CPUID.CPU-Z -e --accept-package-agreements --accept-source-agreements
 winget install --id TechPowerUp.GPU-Z -e --accept-package-agreements --accept-source-agreements
 
-:: Firefox, OSD Studio
+:: Firefox, OSD Studio, PostgreSQl, Zoom
 winget install --id Mozilla.Firefox -e --accept-package-agreements --accept-source-agreements
-
-
+winget install --id PostgreSQL.PostgreSQL.10 --accept-package-agreements --accept-source-agreements
+winget install -e --id Zoom.Zoom
 
 
 
